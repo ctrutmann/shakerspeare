@@ -2,7 +2,7 @@ require "shakerspeare/version"
 
 module Shakerspeare
   def self.sonnet
-    puts 'Since brass, nor stone, nor earth, nor boundless sea,
+    return 'Since brass, nor stone, nor earth, nor boundless sea,
           But sad mortality o’ersways their power,
           How with this rage shall beauty hold a plea,
           Whose action is no stronger than a flower?
@@ -19,8 +19,8 @@ module Shakerspeare
   end
 
   def self.insult
-    insults = ['Thou art like a toad; ugly and venomous', 'You scullion! You rampallian! You fustilarian! I’ll tickle your catastrophe!', 'Methink’st thou art a general offence and every man should beat thee.', 'Your virginity breeds mites, much like a cheese.', 'Thine face is not worth sunburning.']
+    insults = ['Thou art like a toad; ugly and venomous.', 'You scullion! You rampallian! You fustilarian! I’ll tickle your catastrophe!', 'Methink’st thou art a general offence and every man should beat thee.', 'Your virginity breeds mites, much like a cheese.', 'Thine face is not worth sunburning.']
 
-    puts insults[rand(insults.length) -1]
+    return insults[rand(insults.length) -1]
   end
 end
