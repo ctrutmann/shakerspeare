@@ -1,8 +1,6 @@
 # Shakerspeare
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/shakerspeare`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+An anemic Faker-esque generator of Shakespearean snippets.
 
 ## Installation
 
@@ -22,7 +20,30 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Return a sonnet...
+
+```ruby
+Shakerspeare.sonnet #=>'Since brass, nor stone, nor earth, nor boundless sea,
+          But sad mortality o’ersways their power,
+          How with this rage shall beauty hold a plea,
+          Whose action is no stronger than a flower?
+          O, how shall summer’s honey breath hold out
+          Against the wrackful siege of battering days,
+          When rocks impregnable are not so stout,
+          Nor gates of steel so strong, but Time decays?
+          O fearful meditation! Where, alack,
+          Shall Time’s best jewel from Time’s chest lie hid?
+          Or what strong hand can hold his swift foot back?
+          Or who his spoil of beauty can forbid?
+             O, none, unless this miracle have might,
+             That in black ink my love may still shine bright.'
+```
+
+Or a variety of creative insults...
+
+```ruby
+Shakerspeare.sonnet #=>'Thou art like a toad; ugly and venomous.'
+```
 
 ## Development
 
@@ -32,7 +53,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/shakerspeare. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ctrutmann/shakerspeare. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
